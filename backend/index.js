@@ -17,8 +17,8 @@ app.get("/ping", (req, res) => {
   res.send("Hello World from backend");
 });
 
-app.use("/api/users", userRoutes);
-app.use("/api/products", productRoutes);
+app.use("/auth", userRoutes);
+app.use("/products", productRoutes);
 
 // Error handling middleware
 app.use((err, req, res, next) => {

@@ -21,7 +21,7 @@ function Home() {
   };
   const fetchProducts = async () => {
     try {
-      const url = "https://mern-login-lp0c2n5xg-owais-projects-0caf9c40.vercel.app/api/products";
+      const url = "https://mern-login-lp0c2n5xg-owais-projects-0caf9c40.vercel.app/products";
       const headers = {
         headers: {
           Authorization: localStorage.getItem("token"),
