@@ -27,7 +27,7 @@ function Login() {
       return handleError("Please fill all the fields");
     }
     try {
-      const url = "http://localhost:8080/api/users/login";
+      const url = "https://mern-login-lp0c2n5xg-owais-projects-0caf9c40.vercel.app/api/users/login";
       const response = await fetch(url, {
         method: "POST",
         headers: {
