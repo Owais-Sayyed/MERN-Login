@@ -13,3 +13,6 @@
     }
   ]
 }
+
+//changing the vercel.json file to add a ping route
+//changin the vercel node version from 22 to 18
