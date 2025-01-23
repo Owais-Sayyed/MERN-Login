@@ -12,7 +12,7 @@ function Signup() {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    console.log(name, value);
+    //console.log(name, value);
     const copyLoginInfo = { ...signupInfo };
     copyLoginInfo[name] = value;
     setSignupInfo(copyLoginInfo);
